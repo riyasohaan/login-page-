@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff9ec4, #b388eb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 40px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.container:hover {
+  transform: scale(1.03);
+}
+
+h2 {
+  color: #6d28d9;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  background: #f3e8ff;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  color: #7e22ce;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.welcome-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5b21b6;
+}
